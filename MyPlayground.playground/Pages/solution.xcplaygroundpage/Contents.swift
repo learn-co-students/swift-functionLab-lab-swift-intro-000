@@ -1,28 +1,55 @@
 //: [Go Back](@next)
-// 1
 
-print("This is the solution. :) ")
+//: Question 1
+func helloWorld() {
+    print("Hello, world!")
+}
 
-
-
-// 2
-
-let name: String
+helloWorld()
 
 
 
+//: Question 2
+func helloPerson() {
+    let name = "Eddy"
+    print("Hello, \(name)!")
+}
+
+helloPerson()
 
 
 
+//: Question 3
+func helloName(name: String) {
+    print("Hello, \(name)!")
+}
 
-// 3
-
-var test = "test"
-
-
-
+helloName("Jon")
+helloName("Jane")
+helloName("Edgar")
+helloName("Ruth")
 
 
-// 4
 
-var moreFakeData = "HELLO!!"    
+//: Question 4
+let name1 = "Bobby"
+helloName(name1)
+
+var name2 = "George"
+helloName(name2)
+name2 = "Marcia"
+helloName(name2)
+
+
+
+//: Question 5
+func helloVariable() {
+    var greeting = "Hello"
+    print("\(greeting), world!")
+    greeting = "Guten Tag"
+    print("\(greeting), world!")
+}
+
+helloVariable()
+helloVariable()
+helloVariable()
