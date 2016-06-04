@@ -17,7 +17,7 @@
 
 
 /*: question2
- ### 2. Write a function that declares a constant inside the function's body and prints it to the console. Then call it to see your string printed to the playground console.
+ ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
 
@@ -41,7 +41,7 @@
 
 
 /*: question5
- ### 5. Write a function that declares a _variable_ inside the function's body. Print that variable to the console, then assign it to a new variable and print it again. Call your function several times. What do you think happens each time you call your function? Will it print the same thing?
+ ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign it to a new variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
  */
 // write your code here
 
