@@ -4,7 +4,7 @@
 
 > Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. ~[Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison)
 
-## Learning Objectives - The student should be able to...
+## Learning Objectives
 
 * Write their own functions which solidify what we've been telling them in prior readme's where a function should do one thing and one thing well.
 * Call on functions they've written themselves to see the output.
