@@ -6,8 +6,9 @@
 
 ## Learning Objectives
 
-* Write their own functions which solidify what we've been telling them in prior readme's where a function should do one thing and one thing well.
-* Call on functions they've written themselves to see the output.
+* Write your own functions which reinforce what you've been learning in prior readme's. 
+* Practice how a function should do one thing and one thing well.
+* Call on functions you've written to see the output.
 
 
 ## Instructions
@@ -23,3 +24,5 @@
 ![render](http://i.imgur.com/vCIhFbZ.png)
 
 <a href='https://learn.co/lessons/FunctionLab' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-functionLab-lab'>Function Lab </a> on Learn.co and start learning to code for free.</p>
