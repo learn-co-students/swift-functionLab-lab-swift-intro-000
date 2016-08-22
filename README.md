@@ -6,9 +6,7 @@
 
 ## Learning Objectives
 
-* Write your own functions which reinforce what you've been learning in prior readme's. 
-* Practice how a function should do one thing and one thing well.
-* Call on functions you've written to see the output.
+* Write and call functions 
 
 
 ## Instructions
