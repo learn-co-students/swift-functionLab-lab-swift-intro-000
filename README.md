@@ -4,9 +4,9 @@
 
 > Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. ~[Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison)
 
-## Learning Objectives
+## Overview 
 
-* Write and call functions 
+* In this lab, you'll write and call functions. 
 
 
 ## Instructions
