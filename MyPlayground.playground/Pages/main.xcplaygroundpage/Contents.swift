@@ -12,23 +12,34 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
+func helloWorld(){
+    let hello = "Hello World"
+    print(hello)
+}
 
-
+helloWorld()
 
 
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
+func helloWorld2(){
+    let hello = "Hello World"
+    print(hello)
+}
 
-
+helloWorld2()
 
 
 /*: question3
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
-
+func greet(name: String){
+    let hello = "Hello World"
+    print("\(name)")
+}
 
 
 
