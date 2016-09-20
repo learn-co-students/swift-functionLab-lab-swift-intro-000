@@ -13,6 +13,12 @@
  */
 // write your code here
 
+func helloWorld() -> String {
+    
+     return "Hello, world!"
+    
+    }
+print(helloWorld())
 
 
 
@@ -21,7 +27,13 @@
  */
 // write your code here
 
-
+func personName() -> String {
+    
+    let name = "Pink"
+    return name
+    
+}
+print(personName())
 
 
 /*: question3
@@ -29,8 +41,16 @@
  */
 // write your code here
 
+func greet(person: String) -> String{
+    let greeting = "Hello, " + person + "!"
+
+    return greeting
+}
 
 
+print(greet("Jose"))
+print(greet("Jane"))
+print(greet("Ramon"))
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
@@ -38,13 +58,24 @@
 // write your code here
 
 
+func greet2(person: String) -> String{
+    var greeting2 = "Hello, " + person + "!"
+    
+    return greeting2
+}
 
 
+print(greet2("Jhon"))
+print(greet2("Jorge"))
+print(greet2("Rodrigo"))
+
+//I see the same results but I get a warning about variable was never mutated and suggested to change it back to let
 /*: question5
  ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign it to a new variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
  */
 // write your code here
 
+//pass on this one
 
 
 
