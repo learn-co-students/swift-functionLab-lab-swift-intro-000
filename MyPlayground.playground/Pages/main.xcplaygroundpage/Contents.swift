@@ -47,6 +47,9 @@ greet(name: name)
 name = "John"
 greet(name: name)
 
+let finalName = "Warren"
+greet(name: "Warren")
+
 //The greeting changes with the variable
 /*: question5
  ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign it to a new variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
