@@ -12,7 +12,10 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
-
+func helloWorld() {
+    print("Hello, world!")
+}
+helloWorld()
 
 
 
@@ -20,7 +23,11 @@
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
-
+func myFunction() {
+    let name = "John"
+    print(name)
+}
+myFunction()
 
 
 
@@ -28,6 +35,12 @@
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
+func sayName(name: String) {
+    print("Hello, \(name)")
+}
+
+sayName(name: "Greg")
+sayName(name: "Harry")
 
 
 
@@ -36,7 +49,8 @@
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
-
+let name = "John"
+sayName(name: name)
 
 
 
@@ -45,8 +59,13 @@
  */
 // write your code here
 
+func myFunctionTwo() {
+    let fruit = "banana"
+    print("The fruit is \(fruit)")
+    let anotherFruit = fruit
+    print("The new fruits is a \(anotherFruit)")
+}
 
-
-
+myFunctionTwo()
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
