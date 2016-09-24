@@ -13,6 +13,11 @@
  */
 // write your code here
 
+func helloWorld() {
+print("Hello, world!")
+}
+
+helloWorld()
 
 
 
@@ -20,6 +25,11 @@
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
+func helloPerson () {
+    let name = "Ruby"
+    print("Hello,\(name)")
+}
+helloPerson()
 
 
 
@@ -28,6 +38,12 @@
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
+func helloName(name: String) {
+  print("Hello, \(name)")
+}
+helloName(name: "John")
+helloName(name: "Smita")
+
 
 
 
@@ -38,6 +54,13 @@
 // write your code here
 
 
+let name1 = "Bobby"
+helloName(name: name1)
+
+var name2 = "George"
+helloName(name: name2)
+name2 = "Marcia"
+helloName(name: name2)
 
 
 /*: question5
@@ -45,6 +68,16 @@
  */
 // write your code here
 
+func helloVariable() {
+    var greeting = "Hello"
+    print("\(greeting), world!")
+    greeting = "Guten Tag"
+    print("\(greeting), world!")
+}
+
+helloVariable()
+helloVariable()
+helloVariable()
 
 
 
