@@ -51,9 +51,9 @@ greet(name: favoriteSoccerPlayer)
  */
 func noIdea() {
     var writeFunction: String = "to show me something"
-    print(writeFunction)
-    writeFunction = "special"
-    print(writeFunction)
+    print("\(writeFunction) special")
+    writeFunction = "indeed"
+    print("Special, \(writeFunction)!")
 }
 noIdea()
 noIdea()
