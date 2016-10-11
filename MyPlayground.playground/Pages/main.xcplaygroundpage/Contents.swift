@@ -12,7 +12,10 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
-
+func helloWorld() {
+    print("Hello, world!")
+}
+helloWorld()
 
 
 
@@ -20,8 +23,11 @@
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
-
-
+func myName() {
+    let name: String = "Ramon"
+    print(name)
+}
+myName()
 
 
 /*: question3
@@ -29,7 +35,12 @@
  */
 // write your code here
 
-
+func greating(name:String) {
+    print("Hello, \(name)")
+}
+greating(name: "Ramon")
+greating(name: "Jessie")
+greating(name: "Manny")
 
 
 /*: question4
@@ -37,6 +48,10 @@
  */
 // write your code here
 
+var newName: String = "Pedro"
+greating(name: newName)
+newName = "Juan"
+greating(name: newName)
 
 
 
@@ -45,8 +60,14 @@
  */
 // write your code here
 
+func myFunction() {
+    var myName: String = "Ramon"
+    print("My name is \(myName)")
+}
 
+myFunction()
 
-
+// myName = "Fran"
+// An error because the varible is not a global variable and only exist within the function myFunction()
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
