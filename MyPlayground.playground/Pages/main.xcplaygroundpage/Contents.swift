@@ -34,20 +34,18 @@ goodByeWorld()
 /*: question3
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
-func say(name: String)
+func say(name:String)
 {
-
-	print("Welcome Back, \(name)!")
+	let say = "Welcome back \(name)!"
+	print(say)
 }
-
-say(name:"Matthews")
-say(name:"Pierre")
-say(name:"Gregory")
+say(name: "Matthews")
+say(name: "Pierre")
+say(name: "Gregory")
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
-
 var newName = "Brock"
 say(name:newName)
 newName = "Sara"
@@ -68,6 +66,6 @@ func accountBalance(account: Int)
 
 accountBalance(account:4000)
 accountBalance(account:30000)
-accountBalance(account:100000)
+accountBalance(account:1000000)
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
