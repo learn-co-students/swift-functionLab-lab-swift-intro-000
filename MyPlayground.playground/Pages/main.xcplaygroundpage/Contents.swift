@@ -37,8 +37,13 @@ startGame()
 /*: question3
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
-// write your code here
+func highScore(nameInitials: String) {
+    print("\(nameInitials) now holds the high score! Well done!")
+}
 
+highScore(nameInitials: "Fete")
+highScore(nameInitials: "Iam")
+highScore(nameInitials: "Ali")
 
 
 
