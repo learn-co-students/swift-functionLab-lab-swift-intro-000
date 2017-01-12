@@ -13,7 +13,12 @@
  */
 // write your code here
 
+func helloWorld() {
+    
+    print("Hello, world!")
+}
 
+helloWorld()
 
 
 /*: question2
@@ -21,7 +26,13 @@
  */
 // write your code here
 
+func declareConstant() {
+    
+    let someConstant = "some random text"
+    print(someConstant)
+}
 
+declareConstant()
 
 
 /*: question3
@@ -29,7 +40,14 @@
  */
 // write your code here
 
+func printName(name:String) {
+    
+    print("Hello \(name)!")
+}
 
+printName(name: "John")
+printName(name: "Marc")
+printName(name: "Sally")
 
 
 /*: question4
@@ -37,7 +55,10 @@
  */
 // write your code here
 
-
+var name1 = "Billy"
+printName(name: name1)
+name1 = "Jonathan"
+printName(name: name1)
 
 
 /*: question5
@@ -45,7 +66,17 @@
  */
 // write your code here
 
+func fakeAge() {
+    
+    var age = 25
+    print(age)
+    age = 31
+    print(age)
+    
+}
 
+fakeAge()
+fakeAge()
 
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
