@@ -13,6 +13,12 @@
  */
 // write your code here
 
+func helloWorld()
+{
+    print("Hello, world!")
+}
+
+helloWorld()
 
 
 
@@ -20,7 +26,13 @@
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
+func helloPrint()
+{
+    let saySomething = "Here I am!"
+    print (saySomething)
+}
 
+helloPrint()
 
 
 
@@ -29,14 +41,25 @@
  */
 // write your code here
 
+func greetingFunction(name : String)
+{
+    print("Hey \(name), how are you today")
+}
 
-
-
+greetingFunction(name: "Tim")
+greetingFunction(name: "Greg")
+greetingFunction(name: "Lydia")
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
+var personName = "Sean"
 
+greetingFunction(name: personName)
+
+personName = "Craig"
+
+greetingFunction(name: personName)
 
 
 
@@ -45,7 +68,17 @@
  */
 // write your code here
 
+func printNumber()
+{
+    var callNumber = 5
+    print("The number is \(callNumber).")
+    
+    callNumber = 6
+    print("The number is \(callNumber).")
+}
 
+printNumber()
 
+printNumber()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
