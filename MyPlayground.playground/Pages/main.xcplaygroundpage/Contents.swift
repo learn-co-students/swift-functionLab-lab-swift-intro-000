@@ -14,21 +14,35 @@
 // write your code here
 
 
+func printHelloWorld() {
+    print("Hello, world!")
+}
 
-
+printHelloWorld()
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
 
+func constant(){
+    let callConstant = "Hello, there!"
+    
+    print(callConstant)
+}
 
-
-
+constant()
 /*: question3
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
 
+func sayHello(name: String){
+    print("Hello, \(name)!")
+}
+
+sayHello(name: "David")
+sayHello(name: "Callum")
+sayHello(name: "Alex")
 
 
 
@@ -37,6 +51,13 @@
  */
 // write your code here
 
+var variableOne = "Sophie"
+
+sayHello(name: variableOne)
+
+variableOne = "James"
+
+sayHello(name: variableOne)
 
 
 
@@ -45,7 +66,14 @@
  */
 // write your code here
 
+func helloVariable(){
+    
+    var variableTwo = "Alexander"
+    print(variableTwo)
+    variableTwo = "Jordan"
+    print(variableTwo)
+}
 
-
-
+helloVariable()
+helloVariable()
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
