@@ -20,7 +20,7 @@ helloPerson()
 
 
 //: Question 3
-func helloName(name: String) {
+func helloName(_ name: String) {
     print("Hello, \(name)!")
 }
 
