@@ -41,6 +41,16 @@ func anyName2(name: String) {
 anyName2(name: "Jarrod")
 anyName2(name: "Jason")
 
+func helloName(name: String) {
+    print("Hello, \(name)!")
+}
+
+helloName("Jon")
+helloName("Jane")
+helloName("Edgar")
+helloName("Ruth")
+
+
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
