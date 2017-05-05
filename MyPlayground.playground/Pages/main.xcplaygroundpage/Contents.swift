@@ -14,7 +14,9 @@
 // write your code here
 
 
-
+func helloWorld(){
+    print("hello world")
+}
 
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
