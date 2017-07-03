@@ -12,6 +12,12 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
+func helloWorld(){
+    let helloWorld = "Hello, World!"
+    print(helloWorld)
+}
+helloWorld()
+
 
 
 
@@ -21,7 +27,11 @@
  */
 // write your code here
 
-
+func Today(){
+    let Today = "my Birthday"
+    print(Today)
+}
+Today()
 
 
 /*: question3
@@ -29,15 +39,23 @@
  */
 // write your code here
 
+func hello(name: String){
+    
+    print("Hello My Dear \(name)")
+}
+hello(name: "tanvin")
 
-
+hello(name: "atik")
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
+var tanvin = "my love"
+hello(name: tanvin)
 
-
+tanvin = "me"
+hello(name: tanvin)
 
 
 /*: question5
@@ -46,6 +64,14 @@
 // write your code here
 
 
-
+func myHome(){
+    var greeting = "hello"
+    print("\(greeting) my home")
+    greeting = "sweet"
+    print("home \(greeting) home")
+}
+myHome()
+myHome()
+myHome()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
