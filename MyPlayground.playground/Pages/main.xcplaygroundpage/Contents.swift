@@ -40,19 +40,19 @@ func greeting(name: String) {
     print("Hello, my name is \(name)!")
 }
 
-greeting("Niiki")
-greeting("Mandy")
+greeting(name: "Niiki")
+greeting(name: "Mandy")
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 let name1 = "Sophie"
-greeting(name1)
+greeting(name: name1)
 
 var name2 = "Jenny"
-greeting(name2)
-var name2 = "Chloe"
-greeting(name2)
+greeting(name: name2)
+name2 = "Chloe"
+greeting(name: name2)
 
 
 
