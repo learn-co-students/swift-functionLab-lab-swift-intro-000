@@ -13,15 +13,26 @@
  */
 // write your code here
 
+func helloWorld() {
+    
+    print("hello world!")
+}
 
-
+helloWorld()
+helloWorld()
 
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
+func sayHello(){
+    let greeting = "hello!"
+    print(greeting )
+    
+}
 
-
+sayHello()
+sayHello()
 
 
 /*: question3
@@ -29,15 +40,26 @@
  */
 // write your code here
 
+func greeting(name: String) {
+    
+    print("hi there \(name)! How are you?")
 
+}
 
-
+greeting(name: "brian")
+greeting(name: "nathan")
+greeting(name: "jesse")
+greeting(name: "clinton")
+greeting(name: "ramon")
+greeting(name: "dana")
+greeting(name: "arian")
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
 
-
+let myName = "Fernando"
+greeting(name: myName)
 
 
 /*: question5
@@ -45,7 +67,12 @@
  */
 // write your code here
 
+func randomVariable() {
+    var number = 5
+    print(number)
+    
+}
 
-
+randomVariable()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
