@@ -13,8 +13,10 @@
  */
 // write your code here
 
-
-
+func helloWorld(name: String){
+print("Hello, world!")
+}
+helloWorld(name: "yo")
 
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
@@ -22,6 +24,11 @@
 // write your code here
 
 
+func myConstant(){
+    let crabs = "100 Apples"
+    print(crabs)
+}
+myConstant()
 
 
 /*: question3
@@ -29,7 +36,10 @@
  */
 // write your code here
 
-
+func printName(name: String){
+    print("hi \(name)")
+}
+printName(name: "Douglas")
 
 
 /*: question4
@@ -37,7 +47,13 @@
  */
 // write your code here
 
+// it says missing argument
+var Dog = "Super"
 
+func helloName(name: String) {
+    print("Hello, \(name)!")
+}
+helloName(name: "Joseph")
 
 
 /*: question5
@@ -45,7 +61,13 @@
  */
 // write your code here
 
-
-
+func helloDog() {
+    var dog  = "SuperBoo"
+    print("Hello, \(dog)!")
+    dog = "sweet bean"
+    print(" \(dog)")
+}
+helloDog()
+helloDog()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
