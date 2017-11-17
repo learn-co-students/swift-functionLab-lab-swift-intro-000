@@ -81,4 +81,8 @@ qFunc()
 //helloVariable()
 //helloVariable()
 //helloVariable()
+func moonsOfJupiter(numMoons:Int,namePlanet:String){
+    print("There are \(numMoons) moons orbiting \(namePlanet)")
+}
+moonsOfJupiter(numMoons: 67, namePlanet: "Jupiter")
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
