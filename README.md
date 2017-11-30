@@ -4,10 +4,9 @@
 
 > Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time. ~[Thomas Edison](https://en.wikipedia.org/wiki/Thomas_Edison)
 
-## Learning Objectives
+## Overview 
 
-* Write their own functions which solidify what we've been telling them in prior readme's where a function should do one thing and one thing well.
-* Call on functions they've written themselves to see the output.
+* In this lab, you'll write and call functions. 
 
 
 ## Instructions
@@ -23,3 +22,5 @@
 ![render](http://i.imgur.com/vCIhFbZ.png)
 
 <a href='https://learn.co/lessons/FunctionLab' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-functionLab-lab'>Function Lab </a> on Learn.co and start learning to code for free.</p>
