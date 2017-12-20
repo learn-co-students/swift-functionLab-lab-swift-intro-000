@@ -11,17 +11,23 @@
 /*: question1
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
-// write your code here
+func helloworld () {
+    let salutation = "Hello World!"
+    print(salutation)
+}
 
-
+helloworld()
 
 
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
-// write your code here
+func questiontwo () {
+    let constant = "Kenobi"
+    print(constant)
+}
 
-
+questiontwo()
 
 
 /*: question3
