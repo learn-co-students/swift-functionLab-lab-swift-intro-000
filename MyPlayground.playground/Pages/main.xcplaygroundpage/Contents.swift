@@ -12,8 +12,10 @@
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
  */
 // write your code here
-
-
+func helloWorld () {
+ print ("Hello, world!")
+}
+hellowWorld ()
 
 
 /*: question2
