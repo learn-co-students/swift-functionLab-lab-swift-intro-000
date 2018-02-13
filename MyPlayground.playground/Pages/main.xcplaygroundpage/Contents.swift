@@ -24,7 +24,8 @@ helloWorld()
 // write your code here
 
 func swiftMaster () {
-    print("I shall master Swift.")
+    let swift = "Swift"
+    print("I shall master \(swift).")
 }
 
 swiftMaster()
@@ -41,6 +42,7 @@ func randomAnimal(animals: String) {
 }
 
 randomAnimal(animals: "Chicken")
+//randomAnimal("Hi") error because no arguement
 //randomBird(lol: <#T##String#>)  error because the argument defined in the initial function had a name of "animals"
 
 
