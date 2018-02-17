@@ -13,15 +13,22 @@
  */
 // write your code here
 
+func helloWorld(){
+    print("Hello, world!")
+}
 
-
-
+helloWorld()
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
 
+func roadToArtysan(){
+    let toPrint = "Je suis sur la voie de révolutioner le monde."
+    print(toPrint)
+}
 
+roadToArtysan()
 
 
 /*: question3
@@ -29,7 +36,13 @@
  */
 // write your code here
 
+func bonjour(to: String){
+    print("Bonjour, \(to)")
+}
 
+bonjour(to: "Romain")
+bonjour(to: "Batiste")
+bonjour(to: "Guillaume")
 
 
 /*: question4
@@ -37,7 +50,10 @@
  */
 // write your code here
 
-
+var uneString: String = "Bob"
+bonjour(to: uneString)
+uneString = "Jean"
+bonjour(to: uneString)
 
 
 /*: question5
@@ -45,7 +61,14 @@
  */
 // write your code here
 
+func idk(){
+    var ofAnyType = 2
+    print(ofAnyType)
+    ofAnyType = 4
+}
 
+idk()
+idk()
 
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
