@@ -13,7 +13,11 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, world!")
+}
 
+helloWorld()
 
 
 /*: question2
@@ -21,14 +25,26 @@
  */
 // write your code here
 
+func myDrowing() {
+    let dreamingDrowing = "It is time when I talk with my daoughter"
+    print(dreamingDrowing)
+}
 
-
-
+myDrowing()
 /*: question3
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
 
+func hellowGreeting(name: String) {
+   
+    print("Hellow my friend \(name)")
+}
+
+hellowGreeting(name: "Yaser")
+hellowGreeting(name: "Saoud")
+hellowGreeting(name: "Abdullah")
+hellowGreeting(name: "Azzam")
 
 
 
@@ -37,7 +53,13 @@
  */
 // write your code here
 
+let name1 = "Kareem"
+hellowGreeting(name: name1)
 
+var name2 = "Hamad"
+hellowGreeting(name: name2)
+name2="Turkee"
+hellowGreeting(name: name2)
 
 
 /*: question5
@@ -45,7 +67,17 @@
  */
 // write your code here
 
+func greatCourse() {
+    var isThe = "Swift"
+    print("Great Course \(isThe)")
+    isThe = "iOS"
+    print("Great Course \(isThe)")
+    
+}
 
 
 
+greatCourse()
+greatCourse()
+greatCourse()
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
