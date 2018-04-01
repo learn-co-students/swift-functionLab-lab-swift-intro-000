@@ -68,6 +68,7 @@ func foodCravings() {
 }
 
 foodCravings()
+foodCravings()
 
 // Since there is a print statement that reflects each time the variable is reassigned, the console shows every new value.
 
