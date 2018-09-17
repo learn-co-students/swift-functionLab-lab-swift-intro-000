@@ -13,7 +13,11 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, world!")
+}
 
+helloWorld()
 
 
 /*: question2
@@ -21,7 +25,12 @@
  */
 // write your code here
 
+func callConstant() {
+    let constant = "Constant"
+    print(constant)
+}
 
+callConstant()
 
 
 /*: question3
@@ -29,13 +38,24 @@
  */
 // write your code here
 
+func greeter(name: String) {
+    print("Hello, \(name) nice to see you")
+}
+greeter(name: "Adam")
+greeter(name: "Saskatchewan")
 
+func new_func() {
+    print("This is a new function")
+}
 
-
+new_func()
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
+
+var dog = "Zoke"
+greeter(name: dog)
 
 
 
@@ -45,7 +65,23 @@
  */
 // write your code here
 
+func variable() {
+    var this_number = "Variable"
+    print(this_number)
+    this_number = "NotVariable"
+    print(this_number)
+}
+
+variable()
+variable()
+variable()
+variable()
 
 
+func new_one(name: String) {
+    print("Hello, \(name) this is your reckoning." )
+}
+
+new_one(name: "doggydog")
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
