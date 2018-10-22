@@ -6,7 +6,7 @@
  ## Readings associated with this lab
  
  * [Functions](https://github.com/learn-co-curriculum/swift-functions-readme)
-
+ 
  */
 /*: question1
  ### 1. Write a function called `helloWorld()` that prints "Hello, world!" to the console. Then call it to see your string printed to the playground console.
@@ -65,3 +65,4 @@ helloTwice()
 
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
+
