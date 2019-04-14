@@ -13,6 +13,10 @@
  */
 // write your code here
 
+func helloWorld() {
+  print("Hello, World!")
+}
+helloWorld()
 
 
 
@@ -21,6 +25,12 @@
  */
 // write your code here
 
+func example() {
+  let constant = "always here"
+  print(constant)
+  
+}
+example()
 
 
 
@@ -28,7 +38,12 @@
  ### 3. Write a function that takes a person's name as an argument and prints a greeting to the console. Call it several times with different arguments. What do you think you'll see in the console?
  */
 // write your code here
+func example2(personsName: String) {
+  print("Hello \(personsName)!")
+}
 
+example2(personsName: "Avi")
+example2(personsName: "KK")
 
 
 
@@ -37,7 +52,10 @@
  */
 // write your code here
 
-
+var myName = "Avi"
+let yourName = "Karlie"
+example2(personsName: myName)
+example2(personsName: yourName)
 
 
 /*: question5
@@ -45,7 +63,13 @@
  */
 // write your code here
 
-
-
+func example3() {
+  var randomVariable = "hi"
+  print(randomVariable)
+  randomVariable = "Helloooo"
+  print(randomVariable)
+  
+}
+example3()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
