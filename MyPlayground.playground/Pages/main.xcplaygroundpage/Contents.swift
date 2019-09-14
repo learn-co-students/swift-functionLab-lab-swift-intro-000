@@ -13,14 +13,22 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, World!")
+}
 
-
-
+helloWorld()
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
 
+func swiftMaster () {
+    let swift = "Swift"
+    print("I shall master \(swift).")
+}
+
+swiftMaster()
 
 
 
@@ -29,7 +37,13 @@
  */
 // write your code here
 
+func randomAnimal(animals: String) {
+    print("Look at all those \(animals)")
+}
 
+randomAnimal(animals: "Chicken")
+//randomAnimal("Hi") error because no arguement
+//randomBird(lol: <#T##String#>)  error because the argument defined in the initial function had a name of "animals"
 
 
 /*: question4
@@ -37,7 +51,19 @@
  */
 // write your code here
 
+let bird = "Birds"
+let cat = "Orange Cats"
 
+//will see the varibles declared above since they're strings.
+randomAnimal(animals: bird)
+randomAnimal(animals: cat)
+
+var dogs = "Golden Retrievers"
+randomAnimal(animals: dogs)
+
+//Assigned value for dogs was changed, so the console has printed a different result than when used above.
+dogs = "Dobermen"
+randomAnimal(animals: dogs)
 
 
 /*: question5
@@ -45,7 +71,15 @@
  */
 // write your code here
 
+func myRandomFunc() {
+    var random = "blablabla"
+    print(random)
+    
+    random = "lollollol"
+    print(random)
+}
 
-
+//two lines of print statements. One with the initial value of random, and the second with the iterated value.
+myRandomFunc()
 
 //: Click [here](https://github.com/learn-co-curriculum/swift-functionLab-lab/blob/solution/MyPlayground.playground/Pages/solution.xcplaygroundpage/Contents.swift) for a link to the solution.
